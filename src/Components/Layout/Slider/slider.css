@@ -1,0 +1,57 @@
+.carousel-parent {
+  position: relative;
+}
+.carousel-parent .contact-shortcuts {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: antiquewhite;
+  z-index: 1;
+}
+.carousel-parent .contact-shortcuts .social-links button {
+  background: transparent;
+  border: none;
+  color: aliceblue;
+}
+.carousel-parent .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-parent .carousel .carousel-item img {
+  max-width: 100%;
+  max-height: 100vh;
+  display: block;
+}
+.carousel-parent .carousel .carousel-control-next {
+  display: none;
+}
+.carousel-parent .carousel .carousel-control-prev {
+  display: none;
+}
+.carousel-parent .carousel .items-parent-class {
+  position: relative;
+}
+.carousel-parent .carousel .items-parent-class .carouselOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+}
+.carousel-parent .carousel .items-parent-class .carouselOverlay button {
+  background: #e7a141;
+  color: white;
+  border-radius: 0.2rem;
+  border: none;
+  padding: 8px;
+}
+.carousel-parent .carousel .items-parent-class .carouselOverlay button:hover {
+  background: #e7a141;
+  color: white;
+}/*# sourceMappingURL=slider.css.map */
